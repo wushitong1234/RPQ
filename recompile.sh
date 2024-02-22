@@ -9,3 +9,5 @@ make
 cd ../..
 make
 python wrapper.py
+cd ../..
+python sift1m.py --dataset_name sift --data_path /home/stwu/whye/ann/ann/efanna_graph/data --M 32
