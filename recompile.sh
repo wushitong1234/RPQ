@@ -8,4 +8,4 @@ cmake ..
 make
 cd ../..
 make
-python wrapper2.py
+python wrapper.py
