@@ -5,7 +5,7 @@
 #include <cassert>
 #include <iterator>
 #include <algorithm>
-#include <index_nsg.h>
+#include "nsg/include/efanna2e/index_nsg.h"
 #include "omp.h"
 
 PG::PG(uint8_t *input_codes, int base_size, int num_chunks) : base_size_(base_size), num_chunks_(num_chunks)
